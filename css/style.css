@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 30px;
+}
+
+body{
+    background-color: #89d5f1;
+    background-size: 100%;
+    
+}
+
+body1{
+    text-align: left;
+}
+
+header{
+    height: 200px;
+    background-color: #000000;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1{
+    color:#ffffff;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 170px;
+    
+    
+    /* background-color: #FFF; */
+    /* border:2px dashed #F00; */
+
+}
+
+nav{
+    font-size: 20px;
+    border:1px solid rgb(0, 0, 0);
+    margin:10px auto;
+    
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 1100px;
+    
+    
+}
+
+p{
+    font-weight: bold;
+    color:#15201a;
+    text-align: center;
+    font-size: 26px;
+}
+
+a{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+h2{
+    text-align: center;
+    font-size: 70px;
+
+}
+
+
+div{
+    text-align: center;
+}
+
+div img{
+    /* height:100vh; */
+    width: 80px;
+}
+
+nav ul li{
+    display: inline; /*Pone todos los elementos en la misma línea*/
+    list-style: none;   /*Quita las viñetas de la lista*/
+}
+
+
+nav ul li a{
+    text-decoration: none;  /*Quita el subrayado de los enlaces*/
+    color: rgb(0, 0, 0);
+    background:rgb(255, 255, 255);
+    line-height: 80px;
+    padding: 7px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow:5px 5px 5px #000; /*Añade sombra al contenedor*/
+    font-size: 30px;
+    
+
+    
+}
+
+
+nav ul li a:hover{   /*Cambia el contenedor al pasar el mouse por encima*/
+    color: rgb(61, 247, 4);
+    background: rgb(0, 0, 0);
+    box-shadow: 0 0 0 #000;
+}
+
+
+section{
+    padding:0 30px 20px;
+}
+
+section div{
+    text-align: center;
+}
+
+section div img{
+    width: 300px; /*ancho de imagen*/
+    margin: 20px;
+}
+
+h2{
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 20px;
+    color:#000000;
+}
+
+footer{
+    background: #1524294f;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+span{
+    font-weight: bold;
+}
+
+/* --------------------- IDENTIFICADORES -------------------- */
+
+
+#fondo-header{
+    text-align: center;
+}
+
+#fondo-header h1{
+    float: right;
+}
+
+
+/* ------------------------- CLASES ------------------------- */
+
+.principal{
+    width: 900px;  /*ancho de la página*/
+    margin: 20px auto;
+    border: 30px solid #006E96;
+    box-shadow: 3px 3px 3px #333;
+    border-radius: 30px;
+    background: #FFF;
+}
+
+.imgTitulo{
+    width: 300px;
+    float: left;
+    margin: 60px;
+    border-radius: 50px;
+    box-shadow: 6px 10px 5px #999;
+}
+
+.flotante{
+    float: left;
+    width: 600px;
+    margin-top: 30px;
+}
+.flotante1{
+    float: right;
+    width: 550px;
+    margin-top: 0px;
+    
+}
+.ParrF{
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+main{
+    width: 1100px;
+    margin: 30px auto;
+    border: 5px solid;
+    box-shadow: 3px 3px 3px;
+    border-radius: 10px;
+}
+
+.elblessed{
+    margin: 0 0 0 400px;
+}
+
+.Blessed2{
+    margin:0 0 0 400px;
+}

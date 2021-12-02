@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blessed</title>
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Blessed</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="discografia.html">Discografía</a></li>
+                <li><a href="formulario.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <form>
+            <h3>Formulario de Registro</h3>
+            <p>Los campos que tienen un * son requeridos para el envio del formulario</p>
+            
+            <label for="nombre">Nombre: *</label>
+            <input type="text" id="nombre" value="" required><br><br>
+            
+            <label for="apellido">Apellido: *</label>
+            <input type="text" name="prename" id="apellido" placeholder="Escriba apellido" maxlength="25" minlength="8" required><br><br>
+            
+            <label for="edad">Edad: </label>
+            <input type="number" name="edad" id="edad" placeholder="Edad"><br><br>
+            
+            <label for="email">Correo electronico: *</label>
+            <input type="email" name="email" id="email" required><br><br>
+            
+            <label for="password">Contraseña: *</label>
+            <input type="password" name="password" id="password" required minlength="8"><br><br>
+            
+            <label for="tel">Telefono: *</label>
+            <input type="tel" name="telefono" id="tel" placeholder="Celular"><br><br>
+            
+            <label for="date">Fecha: *</label>
+            <input type="date" name="fechas" id="date"><br><br>
+            
+            <div>
+                <input type="radio" name="conect" id="internet"> 
+                <label for="internet">Internet</label>
+                <input type="radio" name="conect" id="whatsapp"> 
+                <label for="whatsapp">Whatsapp</label>
+                <input type="radio" name="conect" id="Celular"> 
+                <label for="Celular">Celular</label>
+            </div>
+            
+            <div>
+                <input type="checkbox" name="pc" id="PC"> 
+                <label for="PC">PC</label>
+                <input type="checkbox" name="celular"> 
+                <label>Celular</label>
+            </div><br><br>
+            
+            <select name="ciudad">
+              <option value="armenia">Armenia</option> 
+              <option value="manizales">Manizales</option>
+              <option value="pereira">Pereira</option>
+            </select><br><br>
+            <select>
+                <optgroup label="Quindío">
+                    <option value="valor1">Armenia</option>
+                    <option value="valor3">Carlarcá</option>
+                    <option value="valor5">Circasia</option>
+                </optgroup>
+                <optgroup label="Risaralda">
+                    <option value="valor2">Pereira</option>
+                    <option value="valor4">Dosquebradas</option>
+                    <option value="valor6">Apia</option>
+                </optgroup>
+            </select><br><br>
+            
+            <label>Escriba su mensaje:</label><br>
+            <textarea rows="5" cols="10"></textarea><br>
+    
+    
+            <input type="reset" value="Borrar">
+            <input type="submit" value="Enviar"> <!-- Permite crear un botón -->
+            <button name="button">Otro botón</button>
+        </form>
+        <footer>
+            <p>Pagina realizada por santiago ortiz velez. &copy; 2021.</p>
+        </footer> 
+    </main>
+</body1>
+</html>
